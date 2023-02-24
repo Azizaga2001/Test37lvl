@@ -1,6 +1,6 @@
 function afterNYears(obj, year) {
     for (let a in obj) {
-        a += year
+        obj[a] += year
     }
 }
 
